@@ -1,0 +1,22 @@
+{
+  "emergencyCallsApp": "Emergency Calls App",
+  "emergencyCalls": "Emergency Calls",
+  "requestCall": "Request Call",
+  "serviceName": "Service Name",
+  "ambulance": "Ambulance",
+  "police": "Police",
+  "fireDepartment": "Fire Department",
+  "electricityEmergency": "Electricity Emergency",
+  "naturalGasEmergency": "Natural Gas Emergency",
+  "roadRescue": "Road Rescue",
+  "antiDrugs": "Anti-Drugs",
+  "theNationalCouncilforWomen": " The National Council for Women ",
+  "waterComplains": "Water Complains",
+  "covid19": "Covid 19",
+  "name": "Name",
+  "phoneNumber": "Phone Number",
+  "address": "Address",
+  "save": "Save",
+  "totalRequests": "Total Requests",
+  "requests": "Requests"
+}

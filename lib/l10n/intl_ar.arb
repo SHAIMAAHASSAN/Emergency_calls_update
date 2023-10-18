@@ -1,0 +1,23 @@
+{
+  "emergencyCallsApp":  "تطبيق مكالمات الطوارئ",
+  "emergencyCalls": "مكالمات الطوارئ",
+  "requestCall": "طلب خدمه",
+  "serviceName": "اسم الخدمه",
+  "ambulance": "الأسعاف",
+  "police": "الشرطة",
+  "fireDepartment": "المطافئ",
+  "electricityEmergency": "طوارئ الكهرباء",
+  "naturalGasEmergency": "غاز مصر",
+  "roadRescue": "نجدة الطريق",
+  "antiDrugs": "الأدمان والمخدرات",
+  "theNationalCouncilforWomen": "المجلس القومي للمرأة",
+  "waterComplains": "شكاوي المياه",
+  "covid19": "كوفيد19",
+  "name": "الأسم",
+  "phoneNumber": "رقم التليفون",
+  "address": "العنوان",
+  "save": "حفظ",
+  "totalRequests": "عدد المهام",
+  "requests": "المهام"
+
+}
