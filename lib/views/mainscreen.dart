@@ -18,12 +18,12 @@ class MainScreen extends StatelessWidget {
 
       appBar: AppBar(
         //title: Text(AppLocalizations.of(context)!.emergencyCallsApp ),
-        title: Text(S.of(context)!.emergencyCallsApp,style: TextStyle(fontSize: 16), ),
+        title: Text(S.of(context)!.emergencyCallsApp,style: TextStyle(fontSize: 14), ),
 
         actions: <Widget>[
 
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.only(left:10,right:10),
             child:
             DropdownButton<Language>(
               underline: const SizedBox(),
@@ -78,7 +78,7 @@ class MainScreen extends StatelessWidget {
               return GridView.builder(
                 padding: const EdgeInsets.all(7),
                 //physics: const NeverScrollableScrollPhysics(),
-                itemCount: value.calls.length,
+                itemCount: value.calls.length ,
                // shrinkWrap: true,
                 gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount:2,
@@ -92,7 +92,7 @@ class MainScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   if( index == value.calls.length-1){
                     return CallCard(image: AssetImage("images/request.jpg"),name:"",
-                        nameOfCall: S.of(context).requestCall, color:Colors.blueAccent, onPressed: (){
+                        nameOfCall: S.of(context).requestCall, color:Colors.blue.shade300, onPressed: (){
                           Navigator.push(
                               context,
                               MaterialPageRoute(

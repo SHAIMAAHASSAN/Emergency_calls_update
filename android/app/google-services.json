@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "88128195096",
+    "project_id": "emergency-calls-d324e",
+    "storage_bucket": "emergency-calls-d324e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88128195096:android:8d36149048405175ca916d",
+        "android_client_info": {
+          "package_name": "com.example.emergency_call_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMihXVjtPk5X2mQrs3dXrwf2zBObTNaxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

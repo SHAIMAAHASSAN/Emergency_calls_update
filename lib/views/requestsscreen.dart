@@ -99,10 +99,10 @@ class _RequestsScreenState extends State<RequestsScreen> {
                     padding: const EdgeInsets.all(10),
                     child: ListView.builder(
                       itemCount: value.requests.length,
-                      padding: EdgeInsets.all(12),
+                      padding: EdgeInsets.all(10),
                       itemBuilder: (context, index) {
                         return Container(
-                          margin: EdgeInsets.all(8),
+                          //margin: EdgeInsets.all(8),
                           padding: EdgeInsets.all(8),
                           decoration: BoxDecoration(
                               color: Colors.cyan[50],

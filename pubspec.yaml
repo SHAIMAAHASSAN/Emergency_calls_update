@@ -28,7 +28,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-
+  circular_bottom_navigation: ^2.3.0
+  firebase_core: ^2.19.0
   get:
   shared_preferences:
   loading_animation_widget: ^1.2.0+4
@@ -46,6 +47,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
+  firebase_auth: ^4.11.1
 
 
 
